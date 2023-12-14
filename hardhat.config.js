@@ -9,7 +9,15 @@ module.exports = {
     },
     mumbai: {
       url: process.env.MUMBAI_RPC,
-      accounts: [process.env.PRIVATE_KEY]
+      accounts: [process.env.MUMBAI_PRIVATE_KEY]
+    },
+    shibuya: {
+      url: process.env.SHIBUYA_RPC,
+      accounts: [process.env.SHIBUYA_PRIVATE_KEY]
+    },
+    moonbase: {
+      url: process.env.MOONBASE_RPC,
+      accounts: [process.env.MOONBASE_PRIVATE_KEY]
     }
   },
   solidity: {
